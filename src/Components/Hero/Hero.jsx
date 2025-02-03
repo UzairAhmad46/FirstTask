@@ -9,8 +9,8 @@ import JopPost from '../JopPost/JopPost';
 import Faq from '../FAQSection/Faq';
 const Hero = () => {
   return (
-    <>
-      <div className="flex justify-flex-start w-full gap-[200px] ml-[15%] mt-[100px] relative md:flex-row">
+    <div className="container mx-auto">
+      <div className=" container  flex justify-between mt-[100px] relative  ">
         <div className="w-[600px]">
           <h1 className="font-bold text-[60px] font-weight:[700] leading-[72px]">
             Find a job that suits your
@@ -41,12 +41,12 @@ const Hero = () => {
             Animation
           </p>
         </div>
-        <div className="absolute -top-[29%] right-[37%]">
+        <div className="absolute -top-[29%] right-[16rem]">
           <img src={img} alt="" />
         </div>
       </div>
 
-      <div className="flex flex-col-reverse">
+      <div className="flex flex-col-reverse ">
         <IconCard
           icon1={icon1}
           icon2={icon2}
@@ -63,7 +63,7 @@ const Hero = () => {
       <h1 className="text-[#000000] text-[34px] leading-[44px] tracking-[-0.72px] font-semibold ml-[13.5%] mb-[30px] mt-[100px] ">
         Most Popular Vacancies
       </h1>
-      <div className="flex  justify-evenly items-center">
+      <div className="flex  justify-evenly items-center container">
         <div>
           <h2 className=" font-bold">Anesthesiologists</h2>
           <p>45,904 Open Positions</p>
@@ -201,7 +201,7 @@ const Hero = () => {
 
       <JopPost />
       <Faq />
-    </>
+    </div>
   );
 };
 
