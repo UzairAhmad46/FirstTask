@@ -10,7 +10,7 @@ import Faq from '../FAQSection/Faq';
 const Hero = () => {
   return (
     <div className="container mx-auto">
-      <div className=" container  flex justify-between mt-[100px] relative  ">
+      <div className=" container  flex justify-between mt-[100px] relative  ml-[10%]  ">
         <div className="w-[600px]">
           <h1 className="font-bold text-[60px] font-weight:[700] leading-[72px]">
             Find a job that suits your
@@ -41,7 +41,7 @@ const Hero = () => {
             Animation
           </p>
         </div>
-        <div className="absolute -top-[29%] right-[16rem]">
+        <div className="absolute -top-[29%] right-[22%]">
           <img src={img} alt="" />
         </div>
       </div>
@@ -63,7 +63,7 @@ const Hero = () => {
       <h1 className="text-[#000000] text-[34px] leading-[44px] tracking-[-0.72px] font-semibold ml-[13.5%] mb-[30px] mt-[100px] ">
         Most Popular Vacancies
       </h1>
-      <div className="flex  justify-evenly items-center container">
+      <div className="flex  justify-evenly items-center  gap-[30px]">
         <div>
           <h2 className=" font-bold">Anesthesiologists</h2>
           <p>45,904 Open Positions</p>
@@ -120,7 +120,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="flex justify-between m-auto  w-[70%] ">
+      <div className="flex justify-between m-auto  w-[70%] gap-[30px] ">
         <div className="w-[293.5px] h-[90px] bg-[#F2F4F7] rounded-xl flex justify-flex-start items-center p-[10px]">
           <div>
             <img src={pen} alt="" className="bg-[#C6ACF9] p-[10px] rounded" />
@@ -158,7 +158,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between m-auto  w-[70%] mt-[30px] ">
+      <div className="flex justify-between m-auto  w-[70%] mt-[30px] gap-[30px] ">
         <div className="w-[293.5px] h-[90px] bg-[#F2F4F7] rounded-xl flex justify-flex-start items-center p-[10px]">
           <div>
             <img src={pen} alt="" className="bg-[#C6ACF9] p-[10px] rounded" />

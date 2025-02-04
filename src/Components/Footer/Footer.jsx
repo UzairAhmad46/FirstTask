@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <hr className="text-gray-500 mt-[60px]   ml-[20%] w-[60%]" />
 
-        <div className="conatiner2 w-[1228px] h-[240px] flex justify-between ml-[20%] items-center mt-[50px]">
+        <div className=" w-[1228px] h-[240px] flex justify-between ml-[15%] items-center mt-[50px]">
           <div className="logo w-[320px] h-[132px]">
             <h1 className="text-3xl font-bold text-[#7030F1]">Logo</h1>
             <p className="text-gray-400 mt-2">
@@ -48,7 +48,7 @@ const Footer = () => {
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
           </div>
-          <div className="text-gray-400  space-y-2 mt-[10px]">
+          <div className="text-gray-400 mt-[10px]">
             <p>Resources</p>
             <p>Blog</p>
             <p>Events</p>
