@@ -9,8 +9,8 @@ import JopPost from '../JopPost/JopPost';
 import Faq from '../FAQSection/Faq';
 const Hero = () => {
   return (
-    <div className="container mx-auto">
-      <div className=" container  flex justify-between mt-[100px] relative  ml-[10%]  ">
+    <div className="container mx-auto" id="Home">
+      <div className=" container  flex justify-between mt-[100px]    max-w-7xl mx-auto px-6 py-24 sm:py-32 lg:flex lg:item-center lg:gap-x-10 lg:px-8 lg:py-20">
         <div className="w-[600px]">
           <h1 className="font-bold text-[60px] font-weight:[700] leading-[72px]">
             Find a job that suits your
@@ -41,7 +41,7 @@ const Hero = () => {
             Animation
           </p>
         </div>
-        <div className="absolute -top-[29%] right-[22%]">
+        <div className="absolute top-[29%] right-[15%]">
           <img src={img} alt="" />
         </div>
       </div>
